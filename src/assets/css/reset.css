@@ -24,5 +24,3 @@ body {font-family: Arial, "Microsoft Yahei", "Helvetica Neue", Helvetica, sans-s
 hr {height: .02rem;margin: .1rem 0;border: medium none;border-top: .02rem solid #cacaca;}
 a {color: #25a4bb;text-decoration: none;}
 /* 以上浏览器reset */
-.icon {width: 1em;height: 1em;vertical-align: -0.15em;fill: currentColor;overflow: hidden;}
-/* 以上font */
