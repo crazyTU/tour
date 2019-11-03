@@ -1,0 +1,82 @@
+{
+  "ret": true,
+  "data": {
+    "city": "北京",
+    "swiperList": [{
+        "id": "0001",
+        "imgUrl": "http://ossweb-img.qq.com/upload/adw/image/201909/1567733531685441171.jpg"
+      },{
+        "id": "0002",
+        "imgUrl": "http://ossweb-img.qq.com/upload/adw/image/201909/1567736085713691984.jpg"
+      }],
+    "iconList": [{
+        "id": "0001",
+        "imgUrl": "http://game.gtimg.cn/images/hyrz/cp/a20190826edition/skill1_on.png",
+        "desc": "火龙炎弹"
+      }, {
+        "id": "0002",
+        "imgUrl": "http://game.gtimg.cn/images/hyrz/cp/a20190826edition/skill2.png",
+        "desc": "土龙弹"
+      }, {
+        "id": "0003",
+        "imgUrl": "http://game.gtimg.cn/images/hyrz/cp/a20190826edition/skill3.png",
+        "desc": "轰雷"
+      }, {
+        "id": "0004",
+        "imgUrl": "http://game.gtimg.cn/images/hyrz/cp/a20190826edition/skill4.png",
+        "desc": "水龙弹"
+      }, {
+        "id": "0005",
+        "imgUrl": "http://game.gtimg.cn/images/hyrz/cp/a20190826edition/skill5.png",
+        "desc": "金刚牢壁"
+      }, {
+        "id": "0006",
+        "imgUrl": "http://game.gtimg.cn/images/hyrz/cp/a20190826edition/skill6.png",
+        "desc": "气旋"
+      }, {
+        "id": "0007",
+        "imgUrl": "http://game.gtimg.cn/images/hyrz/cp/a20190826edition/skill7.png",
+        "desc": "大连弹"
+      }, {
+        "id": "0008",
+        "imgUrl": "http://game.gtimg.cn/images/hyrz/cp/a20190826edition/s2_skill1_on.png",
+        "desc": "棍术"
+      }, {
+        "id": "0009",
+        "imgUrl": "http://game.gtimg.cn/images/hyrz/cp/a20190826edition/s2_skill2.png",
+        "desc": "面粉"
+      }],
+    "recommendList": [{
+        "id": "0001",
+        "imgUrl": "http://game.gtimg.cn/images/hyrz/cp/a20190826edition/pros3.png",
+        "title": "猿飞日斩剧情关卡上线",
+        "desc": "学员们可使用猿飞日斩[秽土转生]体验全新S忍系列剧情。"
+      }, {
+        "id": "0002",
+        "imgUrl": "http://game.gtimg.cn/images/hyrz/cp/a20190826edition/pros1.png",
+        "title": "猿飞日斩剧情关卡上线",
+        "desc": "学员们可使用猿飞日斩[秽土转生]体验全新S忍系列剧情。"
+      }, {
+        "id": "0003",
+        "imgUrl": "http://game.gtimg.cn/images/hyrz/cp/a20190826edition/pros2.png",
+        "title": "猿飞日斩剧情关卡上线",
+        "desc": "学员们可使用猿飞日斩[秽土转生]体验全新S忍系列剧情。"
+      }],
+    "weekendList": [{
+        "id": "0001",
+        "imgUrl": "http://ossweb-img.qq.com/upload/adw/image/201907/1564457219626314150.jpg",
+        "title": "猿飞日斩剧情关卡上线",
+        "desc": "学员们可使用猿飞日斩[秽土转生]体验全新S忍系列剧情。"
+      }, {
+        "id": "0002",
+        "imgUrl": "http://ossweb-img.qq.com/upload/adw/image/201910/1571107197862129726new.jpg",
+        "title": "猿飞日斩剧情关卡上线",
+        "desc": "学员们可使用猿飞日斩[秽土转生]体验全新S忍系列剧情。"
+      }, {
+        "id": "0003",
+        "imgUrl": "http://game.gtimg.cn/images/hyrz/zlkdatasys/images/image/20181008/ab5628507d5660868c3e23862c68e6bd.jpg",
+        "title": "猿飞日斩剧情关卡上线",
+        "desc": "学员们可使用猿飞日斩[秽土转生]体验全新S忍系列剧情。"
+      }]
+  }
+}
