@@ -3,7 +3,7 @@
       <div class="title">热销推荐</div>
       <ul>
         <li class="item border-bottom"
-          v-for="item in recommendList"
+          v-for="item in list"
           :key="item.id">
           <img class="item-img" :src="item.imgUrl" />
           <div class="item-info">
@@ -19,25 +19,8 @@
 <script>
   export default {
     name: 'HomeRecommend',
-    data () {
-      return {
-        recommendList: [{
-          id: '0001',
-          imgUrl: 'http://game.gtimg.cn/images/hyrz/cp/a20190826edition/pros3.png',
-          title: '猿飞日斩剧情关卡上线',
-          desc: '学员们可使用猿飞日斩[秽土转生]体验全新S忍系列剧情。'
-        }, {
-          id: '0002',
-          imgUrl: 'http://game.gtimg.cn/images/hyrz/cp/a20190826edition/pros3.png',
-          title: '猿飞日斩剧情关卡上线',
-          desc: '学员们可使用猿飞日斩[秽土转生]体验全新S忍系列剧情。'
-        }, {
-          id: '0003',
-          imgUrl: 'http://game.gtimg.cn/images/hyrz/cp/a20190826edition/pros3.png',
-          title: '猿飞日斩剧情关卡上线',
-          desc: '学员们可使用猿飞日斩[秽土转生]体验全新S忍系列剧情。'
-        }]
-      }
+    props: {
+      list: Array
     }
   }
 </script>
@@ -75,5 +58,6 @@
         background: #ff9300
         padding: 0 .2rem
         border-radius: .06rem
+        font-size: .26rem
         color: #fff
 </style>

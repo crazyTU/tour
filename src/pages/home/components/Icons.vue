@@ -21,54 +21,20 @@
 <script>
   export default {
     name: 'HomeIcons.vue',
+    props: {
+      list: Array
+    },
     data () {
       return {
         swiperOption: {
-          loop: false
-        },
-        iconList: [{
-          id: '0001',
-          imgUrl: 'http://game.gtimg.cn/images/hyrz/cp/a20190826edition/skill1_on.png',
-          desc: '火龙炎弹'
-        }, {
-          id: '0002',
-          imgUrl: 'http://game.gtimg.cn/images/hyrz/cp/a20190826edition/skill2.png',
-          desc: '土龙弹'
-        }, {
-          id: '0003',
-          imgUrl: 'http://game.gtimg.cn/images/hyrz/cp/a20190826edition/skill3.png',
-          desc: '轰雷'
-        }, {
-          id: '0004',
-          imgUrl: 'http://game.gtimg.cn/images/hyrz/cp/a20190826edition/skill4.png',
-          desc: '水龙弹'
-        }, {
-          id: '0005',
-          imgUrl: 'http://game.gtimg.cn/images/hyrz/cp/a20190826edition/skill5.png',
-          desc: '金刚牢壁'
-        }, {
-          id: '0006',
-          imgUrl: 'http://game.gtimg.cn/images/hyrz/cp/a20190826edition/skill6.png',
-          desc: '气旋'
-        }, {
-          id: '0007',
-          imgUrl: 'http://game.gtimg.cn/images/hyrz/cp/a20190826edition/skill7.png',
-          desc: '大连弹'
-        }, {
-          id: '0008',
-          imgUrl: 'http://game.gtimg.cn/images/hyrz/cp/a20190826edition/s2_skill1_on.png',
-          desc: '棍术'
-        }, {
-          id: '0009',
-          imgUrl: 'http://game.gtimg.cn/images/hyrz/cp/a20190826edition/s2_skill2.png',
-          desc: '面粉'
-        }]
+          autoplay: false
+        }
       }
     },
     computed: {
       pages () {
         const pages = []
-        this.iconList.forEach((item, index) => {
+        this.list.forEach((item, index) => {
           const page = Math.floor(index / 8)
           if (!pages[page]) {
             pages[page] = []
